@@ -1,56 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Lustre Beauty and Wellness Hub Logo">
-  <defs>
-    <radialGradient id="tealBg" cx="50%" cy="40%" r="65%">
-      <stop offset="0%" stop-color="#027379" />
-      <stop offset="65%" stop-color="#015E63" />
-      <stop offset="100%" stop-color="#013D40" />
-    </radialGradient>
-    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#F4F5DB" />
-      <stop offset="35%" stop-color="#DFB76C" />
-      <stop offset="70%" stop-color="#CC9D4B" />
-      <stop offset="100%" stop-color="#9E7329" />
-    </linearGradient>
-    <linearGradient id="creamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF" />
-      <stop offset="100%" stop-color="#F4F5DB" />
-    </linearGradient>
-  </defs>
-
-  <!-- Circular Medallion Base (#015E63) -->
-  <circle cx="200" cy="200" r="192" fill="url(#tealBg)" stroke="url(#goldGrad)" stroke-width="6" />
-  <circle cx="200" cy="200" r="176" fill="none" stroke="#CC9D4B" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.7" />
-  <circle cx="200" cy="200" r="168" fill="none" stroke="#F4F5DB" stroke-width="0.75" opacity="0.35" />
-
-  <!-- Top Sparkle / Lustre Star -->
-  <path d="M200 42 L204 58 L220 62 L204 66 L200 82 L196 66 L180 62 L196 58 Z" fill="url(#goldGrad)" />
-  <circle cx="200" cy="62" r="2.5" fill="#F4F5DB" />
-
-  <!-- Botanical Lotus & Radiance Crown -->
-  <g transform="translate(200, 156)">
-    <!-- Outer Petals -->
-    <path d="M0 24 C-38 22, -74 -2, -82 -34 C-52 -32, -24 -12, 0 24 Z" fill="url(#goldGrad)" opacity="0.75" />
-    <path d="M0 24 C38 22, 74 -2, 82 -34 C52 -32, 24 -12, 0 24 Z" fill="url(#goldGrad)" opacity="0.75" />
-    <!-- Middle Petals -->
-    <path d="M0 24 C-28 10, -52 -24, -46 -58 C-22 -42, -8 -16, 0 24 Z" fill="url(#goldGrad)" opacity="0.9" />
-    <path d="M0 24 C28 10, 52 -24, 46 -58 C22 -42, 8 -16, 0 24 Z" fill="url(#goldGrad)" opacity="0.9" />
-    <!-- Center Lotus Petal -->
-    <path d="M0 26 C-20 -4, -22 -44, 0 -72 C22 -44, 20 -4, 0 26 Z" fill="url(#goldGrad)" />
-    <path d="M0 16 C-10 -6, -11 -34, 0 -54 C11 -34, 10 -6, 0 16 Z" fill="#F4F5DB" opacity="0.45" />
-    <!-- Base Crescent -->
-    <path d="M-64 28 Q0 44 64 28 Q0 36 -64 28 Z" fill="#CC9D4B" />
-  </g>
-
-  <!-- Brand Wordmark: LUSTRE -->
-  <text x="200" y="252" text-anchor="middle" fill="url(#creamGrad)" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="bold" letter-spacing="10">LUSTRE</text>
-
-  <!-- Divider Line with Diamond -->
-  <line x1="96" y1="274" x2="186" y2="274" stroke="#CC9D4B" stroke-width="1.5" opacity="0.8" />
-  <polygon points="200,268 206,274 200,280 194,274" fill="#CC9D4B" />
-  <line x1="214" y1="274" x2="304" y2="274" stroke="#CC9D4B" stroke-width="1.5" opacity="0.8" />
-
-  <!-- Sub-brand: BEAUTY & WELLNESS HUB -->
-  <text x="200" y="302" text-anchor="middle" fill="#CC9D4B" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="13.5" font-weight="600" letter-spacing="4.5">BEAUTY &amp; WELLNESS HUB</text>
-  <text x="200" y="326" text-anchor="middle" fill="#F4F5DB" opacity="0.75" font-family="Georgia, serif" font-style="italic" font-size="12" letter-spacing="1.5">Est. Las Piñas • Holistic Aesthetics</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <rect width="500" height="500" fill="#015E63" />
+  <!-- Inner Left & Right Gold Lotus Petals (#CC9D4B) -->
+  <path
+    d="M235 312 C 150 285, 125 205, 138 115 C 185 135, 212 165, 222 215"
+    fill="none"
+    stroke="#CC9D4B"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M265 312 C 350 285, 375 205, 362 115 C 315 135, 288 165, 278 215"
+    fill="none"
+    stroke="#CC9D4B"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Outer Left & Right Cream Lotus Petals (#F4F5DB) -->
+  <path
+    d="M250 316 C 165 340, 82 280, 56 196 C 125 186, 178 205, 212 245"
+    fill="none"
+    stroke="#F4F5DB"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M250 316 C 335 340, 418 280, 444 196 C 375 186, 322 205, 288 245"
+    fill="none"
+    stroke="#F4F5DB"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Center Cream Lotus Petal (#F4F5DB) -->
+  <path
+    d="M250 76 C 182 155, 178 258, 250 316 C 322 258, 318 155, 250 76 Z"
+    fill="none"
+    stroke="#F4F5DB"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- LUSTRE Wordmark -->
+  <text
+    x="250"
+    y="418"
+    text-anchor="middle"
+    fill="#F4F5DB"
+    font-family="Montserrat, Inter, system-ui, -apple-system, sans-serif"
+    font-size="68"
+    font-weight="800"
+    letter-spacing="10"
+  >LUSTRE</text>
 </svg>
-
