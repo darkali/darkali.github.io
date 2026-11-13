@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <rect width="500" height="500" fill="#015E63" />
+  <!-- Inner Left & Right Gold Lotus Petals (#CC9D4B) -->
+  <path
+    d="M235 312 C 150 285, 125 205, 138 115 C 185 135, 212 165, 222 215"
+    fill="none"
+    stroke="#CC9D4B"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M265 312 C 350 285, 375 205, 362 115 C 315 135, 288 165, 278 215"
+    fill="none"
+    stroke="#CC9D4B"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Outer Left & Right Cream Lotus Petals (#F4F5DB) -->
+  <path
+    d="M250 316 C 165 340, 82 280, 56 196 C 125 186, 178 205, 212 245"
+    fill="none"
+    stroke="#F4F5DB"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M250 316 C 335 340, 418 280, 444 196 C 375 186, 322 205, 288 245"
+    fill="none"
+    stroke="#F4F5DB"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- Center Cream Lotus Petal (#F4F5DB) -->
+  <path
+    d="M250 76 C 182 155, 178 258, 250 316 C 322 258, 318 155, 250 76 Z"
+    fill="none"
+    stroke="#F4F5DB"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- LUSTRE Wordmark -->
+  <text
+    x="250"
+    y="418"
+    text-anchor="middle"
+    fill="#F4F5DB"
+    font-family="Montserrat, Inter, system-ui, -apple-system, sans-serif"
+    font-size="68"
+    font-weight="800"
+    letter-spacing="10"
+  >LUSTRE</text>
+</svg>
